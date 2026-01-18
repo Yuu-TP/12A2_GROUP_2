@@ -1,20 +1,21 @@
 body {backgroud-color: lightyellow;
      }
 .modau {height: 50%;
-        justify-content: center;
+        width: 50%;
        }
-.rtts14 {width: 35%;
-         height: 35%;
+.rtts14 {width: 25%;
+         height: 25%;
          text-align: right;
         }
-.mbcx9 {width: 35%;
-         height: 35%;
+.mbcx9 {width: 25%;
+         height: 25%;
          text-align: right;
         }
 .kln1 {width: 50%;
        height: 50%;
-       justify-content: center;
+       text-align: center !important;
        }
+
 
 
 
