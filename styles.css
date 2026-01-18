@@ -3,17 +3,18 @@ body {backgroud-color: lightyellow;
 .modau {width: 100%;
         height: 50%;
        }
-.rtts14 {width: 75%;
-         height: 75%;
+.rtts14 {width: 35%;
+         height: 35%;
          text-align: right;
         }
-.mbcx9 {width: 75%;
-         height: 75%;
+.mbcx9 {width: 35%;
+         height: 35%;
          text-align: right;
         }
-.kln1 {width: 75%;
-       height: 75%;
+.kln1 {width: 50%;
+       height: 50%;
        display: flex;
        }
+
 
 
