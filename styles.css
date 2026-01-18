@@ -1,7 +1,7 @@
 body {backgroud-color: lightyellow;
      }
-.modau {height: 125%;
-        width: 125%;
+.modau {height: 100%;
+        width: 100%;
        }
 .rtts14 {width: 150%;
          height: 150%;
@@ -14,3 +14,5 @@ body {backgroud-color: lightyellow;
 .kln1 {width: 75%;
        height: 75%;
        }
+.cg {text-align: justify;}
+
