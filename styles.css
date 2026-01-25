@@ -86,7 +86,7 @@
   transform: scale(1.05);
 }
 .mieu-ba-section {
-    background-color: #f9f7f2; /* Màu kem sáng rất sang, không bị lóa như trắng tinh */
+    background-color: #f9f7f2;
     padding: 100px 50px;
     overflow: hidden;
 }
@@ -98,8 +98,6 @@
     align-items: center;
     gap: 60px;
 }
-
-/* Khối ảnh Collage */
 .image-collage {
     flex: 1;
     position: relative;
@@ -107,25 +105,22 @@
     justify-content: center;
     align-items: center;
 }
-
 .img-main {
     width: 80%;
     border-radius: 15px;
     box-shadow: 20px 20px 60px rgba(0,0,0,0.1);
     transition: transform 0.5s ease;
 }
-
 .img-sub {
     position: absolute;
     width: 45%;
     bottom: -30px;
     right: 0;
-    border: 8px solid #fff; /* Viền trắng dày tạo kiểu tạp chí */
+    border: 8px solid #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.15);
     transition: transform 0.6s ease;
 }
-
 .mieu-ba-content {
     flex: 1;
     padding: 40px;
@@ -215,3 +210,4 @@ p { line-height: 1.8; color: #636e72; }
 .photo-frame img { width: 100%; display: block; }
 .scrapbook-item:hover .main-photo { transform: rotate(-3deg) scale(1.05); }
 .scrapbook-item:hover .sub-photo { transform: rotate(3deg) scale(1.1); }
+
