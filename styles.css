@@ -162,3 +162,56 @@
 .mieu-ba-container:hover .img-sub {
     transform: scale(1.1) translateY(-20px); 
 }
+:root {
+  --bg-color: #fcfaf7;
+  --text-main: #2d3436;
+  --accent-green: #2d5a27;
+  --accent-red: #a03a33;
+}
+.scrapbook-container {
+  background-color: var(--bg-color);
+  padding: 80px 10%;
+  font-family: 'Playfair Display', serif;
+}
+.scrapbook-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 120px;
+  transition: all 0.5s ease;
+}
+.item-right { flex-direction: row-reverse; }
+.content-side {
+  flex: 1;
+  padding: 30px;
+  background: white;
+  border: 1px solid #eee;
+  box-shadow: 10px 10px 0px rgba(0,0,0,0.02);
+  transition: all 0.4s ease; 
+}
+.scrapbook-item:hover .content-side {
+  transform: scale(1.25);
+  z-index: 10;
+  box-shadow: 20px 20px 40px rgba(0,0,0,0.1);
+  border-color: #dcdde1;
+}
+.location-tag { color: #95a5a6; font-size: 0.9rem; }
+h2 { font-size: 2.5rem; margin: 15px 0; color: var(--text-main); }
+p { line-height: 1.8; color: #636e72; }
+.image-side {
+  flex: 1.5;
+  position: relative;
+  height: 400px;
+}
+.photo-frame {
+  position: absolute;
+  border: 10px solid white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+.main-photo { width: 70%; top: 0; left: 0; z-index: 1; }
+.sub-photo { width: 50%; bottom: -20px; right: 0; z-index: 2; }
+.photo-frame img { width: 100%; display: block; }
+.scrapbook-item:hover .main-photo { transform: rotate(-3deg) scale(1.05); }
+.scrapbook-item:hover .sub-photo { transform: rotate(3deg) scale(1.1); }
