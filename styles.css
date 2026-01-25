@@ -16,11 +16,11 @@
       flex-wrap: wrap;
       margin-top: 0;
       max-width: 100%;
-      padding-right: 4em;
-      padding-left: 4em;
+      padding-right: 3em;
+      padding-left: 3em;
      }
 .block {flex: 0 0 auto;
-        width: 30%;
+        width: 33.333333333333333333%;
        }
 .rtts14 {width: 100%;
          height: 100%;
@@ -34,6 +34,7 @@
 .kln1 {width: 75%;
        height: 75%;
       }
+
 
 
 
