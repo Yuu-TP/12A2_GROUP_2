@@ -1,12 +1,19 @@
-body {backgroud-color: lightyellow;}
-.modau {height: 100%;
-        width: 100%;}
-.rtts14 {width: 80%;
-         height: 80%;}
-.mbcx9 {width: 80%;
-         height: 80%;}
-.kln1 {width: 25%;
-       height: 25%;}
+.banner {background: url("dia_diem_du_lich_o_ag/md.gif") no-repeat center center;
+         backgroud-size: cover;
+         padding-top: 10em;
+         padding-bottom: 10em;
+         text-align: right !important;
+       }
+.rtts14 {width: 100%;
+         height: 100%;
+        }
+.mbcx9 {width: 100%;
+         height: 100%;
+       }
+.kln1 {width: 75%;
+       height: 75%;
+      }
+
 
 
 
