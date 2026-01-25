@@ -14,7 +14,7 @@
        }
 .row {display: flex;
       flex-wrap: wrap;
-      margin-top: -1;
+      margin-top: 0;
       max-width: 100%;
       padding-right: 4em;
       padding-left: 4em;
@@ -34,6 +34,7 @@
 .kln1 {width: 75%;
        height: 75%;
       }
+
 
 
 
