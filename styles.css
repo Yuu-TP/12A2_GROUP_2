@@ -224,7 +224,7 @@
   --accent-green: #2d5a27;
   --accent-red: #a03a33;
 }
-.scrapbook-container {
+.scrapbook_container {
   background-color: var(--bg-color);
   padding: 80px 10%;
   font-family: 'Playfair Display', serif;
@@ -271,5 +271,6 @@ p { line-height: 1.8; color: #636e72; }
 .photo-frame img { width: 100%; display: block; }
 .scrapbook-item:hover .main-photo { transform: rotate(-3deg) scale(1.05); }
 .scrapbook-item:hover .sub-photo { transform: rotate(3deg) scale(1.1); }
+
 
 
