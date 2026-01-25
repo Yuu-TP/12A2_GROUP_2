@@ -1,5 +1,4 @@
-.banner {background: url("dia_diem_du_lich_o_ag/md.mp4") no-repeat center center;
-         background-size: 100% 100%;
+.banner {background-size: 100% 100%;
          padding-top: 1em;
          padding-bottom: 1em;
          text-align: center !important;
@@ -34,6 +33,7 @@
 .kln1 {width: 75%;
        height: 75%;
       }
+
 
 
 
