@@ -15,50 +15,16 @@
 		p {font-family: san-serif;
 		   text-indent: 2em;
 		   font-size: 125%;
-		  } .tra-su-content {
-  background-color: #ffffff;
-  padding: 40px 20px;
-  color: #333;
-}
-.content-item {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  margin-bottom: 50px;
-  transition: all 0.6s ease-out;
-}
-.content-item.reverse {
-  flex-direction: row-reverse;
-}
-.text-part { flex: 1; }
-.text-part h3 {
-  font-size: 24px;
-  color: #2e7d32;
-  margin-bottom: 15px;
-}
-.media-part { flex: 1; }
-.media-part img, .media-part video {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-.media-part:hover img, .media-part:hover video {
-  transform: translateY(-5px);
-}
-.scroll-effect {
-  opacity: 0.9;
-}
 	</style>
 </head>
 <body>
-	<header>
+<header>
            <div class="banner">
               <video autoplay muted loop playsinline class="bg-video">
               <source src="dia_diem_du_lich_o_ag/md.mp4" type="video/mp4">
               </video>
           <div class="content">
-    <h1>ĐỊA ĐIỂM DU LỊCH Ở AN GIANG</h1>
+    <h1 id="quaylai">ĐỊA ĐIỂM DU LỊCH Ở AN GIANG</h1>
   </div>
 </div>
 <div class="slogan-container">
@@ -75,42 +41,30 @@
     <p>Di tích lịch sử quan trọng cấp Quốc gia</p>
   </div>
 </div>
-		</header>
-	 <div class="tra-su-content">
-  <div class="content-item scroll-effect">
-    <div class="text-part">
-      <h3>3.1 Vị Trí</h3>
-      <p> Khu lưu niệm Chủ tịch Tôn Đức Thắng tọa lạc trên cù lao Ông Hổ, thuộc xã Mỹ Hòa Hưng, tỉnh An Giang. Đây là một trong những khu di tích quốc gia đặc biệt và là địa điểm thu hút khách du lịch bậc nhất ở An Giang</p>
-    </div>
-    <div class="media-part">
-      <img src="dia_diem_du_lich_o_ag/kln2.jpg">
-    </div>
-  </div>
-  <div class="content-item scroll-effect reverse">
-    <div class="text-part">
-      <h3>3.2 Đặc trưng</h3>   
-	<p> Ghé thăm Khu lưu niệm du khách được tham quan, tìm hiểu về cuộc đời, sự nghiệp của Chủ tịch Tôn Đức Thắng từ thời niên thiếu ở quê nhà, lúc ra đi hoạt động cách mạng cho đến những năm tháng cuối đời.
-<br>- Khu di tích gồm nhiều hạng mục như:
-<br>+ Nhà trưng bày giới thiệu về cuộc đời hoạt động của Bác Tôn
-<br>+ Nhà lưu niệm thời niên thiếu
-<br>+ Đền tưởng niệm Bác Tôn
-<br>- Nhà trưng bày các tác phẩm nghệ thuật điêu khắc gỗhăm Khu lưu niệm du khách được tham quan, tìm hiểu về cuộc đời, sự nghiệp của Chủ tịch Tôn Đức Thắng từ thời niên thiếu ở quê nhà, lúc ra đi hoạt động cách mạng cho đến những năm tháng cuối đời.
-<br>- Khu di tích gồm nhiều hạng mục như:
-<br>+ Nhà trưng bày giới thiệu về cuộc đời hoạt động của Bác Tôn
-<br>+ Nhà lưu niệm thời niên thiếu
-<br>+ Đền tưởng niệm Bác Tôn
-<br>- Nhà trưng bày các tác phẩm nghệ thuật điêu khắc gỗ, chiếc phi cơ chở Bác Tôn vào Sài Gòn dự lễ mít tinh giải phóng miền Nam thống nhất đất nước;và nhiều tác phẩm văn học nghệ thuật khác…
-<br>- Đền tưởng niệm Bác Tôn được xây dựng vào năm 1997 theo kiến trúc đền cổ Việt Nam mang màu sắc đặc thù của Nam Bộ.Phía trong chính điện được trang trí đặc sắc, tên của Chủ tịch Tôn Đức Thắng được khắc theo lối chữ giả cổ, mặt chữ được mạ bằng vàng. phía sau bức tượng là hình mặt trống đồng Ngọc Lũ được chạm nổi toát lên vẻ trang nghiêm.
-<br>- Nhà trưng bày thân thế và sự nghiệp Chủ tịch Tôn Đức Thắng là công trình được xây mới với nóc cổ lầu, mái lợp ngói đại ống màu đỏ. Nhà trưng bày giới thiệu về cuộc đời, sự nghiệp của Bác Tôn với nhiều hình ảnh tư liệu, hiện vật gắn liền với sự nghiệp của bác Tôn
-<br>- Khu lưu niệm chủ tịch Tôn Đức Thắng không chỉ thu hút khách du lịch vì những giá trị lịch sử mà còn là nơi phong cảnh thiên nhiên hữu tình tại xứ cù lao. Để mỗi lần đến thăm An Giang du khách đều muốn đến nơi đây như một sự tri ân và hòa mình với thiên nhiên sau những ngày làm việc bận rộn</p>
+</header>
+	 <div class="text-content">
+				 <div class="description-card">
+                <h2>3.1 Vị trí</h2>
+                    <p> Ghé thăm Khu lưu niệm du khách được tham quan, tìm hiểu về cuộc đời, sự nghiệp của Chủ tịch Tôn Đức Thắng từ thời niên thiếu ở quê nhà, lúc ra đi hoạt động cách mạng cho đến những năm tháng cuối đời.
+<br>Khu di tích gồm nhiều hạng mục như:
+<br>+	 Nhà trưng bày giới thiệu về cuộc đời hoạt động của Bác Tôn
+<br>+	Nhà lưu niệm thời niên thiếu
+<br>+	 Đền tưởng niệm Bác Tôn
+ <br>   Nhà trưng bày các tác phẩm nghệ thuật điêu khắc gỗ, chiếc phi cơ chở Bác Tôn vào Sài Gòn dự lễ mít tinh giải phóng miền Nam thống nhất đất nước;và nhiều tác phẩm văn học nghệ thuật khác…</p>
+					 <p> Đền tưởng niệm Bác Tôn được xây dựng vào năm 1997 theo kiến trúc đền cổ Việt Nam mang màu sắc đặc thù của Nam Bộ.Phía trong chính điện được trang trí đặc sắc, tên của Chủ tịch Tôn Đức Thắng được khắc theo lối chữ giả cổ, mặt chữ được mạ bằng vàng. phía sau bức tượng là hình mặt trống đồng Ngọc Lũ được chạm nổi toát lên vẻ trang nghiêm.
+  <br> Nhà trưng bày thân thế và sự nghiệp Chủ tịch Tôn Đức Thắng là công trình được xây mới với nóc cổ lầu, mái lợp ngói đại ống màu đỏ. Nhà trưng bày giới thiệu về cuộc đời, sự nghiệp của Bác Tôn với nhiều hình ảnh tư liệu, hiện vật gắn liền với sự nghiệp của bác Tôn
+ <br> Khu lưu niệm chủ tịch Tôn Đức Thắng không chỉ thu hút khách du lịch vì những giá trị lịch sử mà còn là nơi phong cảnh thiên nhiên hữu tình tại xứ cù lao. Để mỗi lần đến thăm An Giang du khách đều muốn đến nơi đây như một sự tri ân và hòa mình với thiên nhiên sau những ngày làm việc bận rộn</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
-    <div class="media-part">
-      <video controls>
-        <source src="video_ag/vkln1.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
-  </div>
+<section class="mieu-ba-section">
+    <div class="mieu-ba-container">
+        <div class="image-collage">
+            <img src="dia_diem_du_lich_o_ag/kln2.jpg" class="img-main">
+          <video src="video_ag/vkln1" class="img-sub"></video>
+				</div>
 		<footer class="travel-footer">
     <div class="footer-container">
         <div class="footer-column">
@@ -143,6 +97,7 @@
 </footer>
 </body>
 </html>
+
 
 
 
