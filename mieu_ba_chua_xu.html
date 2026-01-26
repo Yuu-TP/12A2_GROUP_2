@@ -17,6 +17,40 @@
 		   text-indent: 2em;
 		   font-size: 125%;
 		  }
+		 .tra-su-content {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  color: #333;
+}
+.content-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  transition: all 0.6s ease-out;
+}
+.content-item.reverse {
+  flex-direction: row-reverse;
+}
+.text-part { flex: 1; }
+.text-part h3 {
+  font-size: 24px;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+.media-part { flex: 1; }
+.media-part img, .media-part video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.media-part:hover img, .media-part:hover video {
+  transform: translateY(-5px);
+}
+.scroll-effect {
+  opacity: 0.9;
+}
 	</style>
 </head>
 <body>
@@ -44,6 +78,7 @@
   </div>
 </div>
 		</header>
+	
     <h1>Miếu Bà Chúa Xứ</h1>
 	<h2>1. Vị trí địa lý</h2>
 	<p>Miếu Bà Chúa Xứ tọa lạc dưới chân núi Sam thuộc phường núi Sam; thành phố Châu Đốc, tỉnh An Giang; Việt Nam. 
@@ -98,6 +133,7 @@
 </footer>
 </body>
 </html>
+
 
 
 
